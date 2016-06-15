@@ -2,7 +2,7 @@ ourTypes = { //This is a single line comment.
   // So first thing's first, let's talk comments. There are two ways to create a comment in Javascript.
   // This is a single-line comment. Whatever is written after two slashes will be ignored by the JS interpreter.
   // Single line comments can also follow code, as on line 1. 
-  // You can also use mulit-line comments. Everthing in between /* and */ would be ignored by the interpreter.
+  // You can also use mulit-line comments. Everything in between /* and */ would be ignored by the interpreter.
   /*
     This is a mulit line comment! 
     Remember, you can nest single line comments within multi-line ones //like this
@@ -92,15 +92,15 @@ ourTypes = { //This is a single line comment.
   */
   thisShouldBeUndefined: undefined, //replace the values to make tests pass!
 
-  thisShouldBeNull: 'null',
+  thisShouldBeNull: null,
 
-  aBoolean: 88,
+  aBoolean: false,
 
-  anotherBoolean: 'what\'s the difference between true and truthy?',
+  anotherBoolean: true,
 
-  aString: 0,
+  aString: '0',
 
-  aNumber: '123'
+  aNumber: 5555
 };
 
 /******************
@@ -114,18 +114,20 @@ Writing tests is something that will be gone over later, for now just focus on u
 I think you'll be surprised that you'll be able to 
 understand what we're looking for!
 ******************/
-
+var example = 'Javascript is fun!';
 /*
   Use the next section for 'variables and arithmetic operators.'
   The first two tests pass. Discuss why with your partner.
 */
 var foo;
-
-
-
-
-
-
+var bar = 1;
+var bar = 'bar';
+var num1 = 10;
+var num2=20;
+var total=30;
+var num3=5;
+var minus=25;
+var divided= total / num3;
 /*
   Use this next section for 'comparison operators'.
   Use the variables from the last section and follow the prompts below.
