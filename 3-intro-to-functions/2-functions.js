@@ -1,4 +1,4 @@
-Eror to hapn
+
 
 /*
   Alright, let's talk functions. So many things to go over here!
@@ -49,12 +49,3 @@ Eror to hapn
 
 
 
-
-//functions
-// basic functions
-// methods
-// built in methods
-  // strings
-  // arrays
-  // objects
-// Constructors
