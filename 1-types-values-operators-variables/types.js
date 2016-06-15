@@ -128,6 +128,15 @@ var total=30;
 var num3=5;
 var minus=25;
 var divided= total / num3;
+var remainder = 2
+var remainderToString = '2'
+var firstResult = true 
+var secondResult = true
+var numberAsString = '10'
+var equals = 10 =='10';
+var deepEquals = 10 ==='10';
+var thirdResult = true
+var fourthResult = true
 /*
   Use this next section for 'comparison operators'.
   Use the variables from the last section and follow the prompts below.
@@ -148,17 +157,17 @@ var divided= total / num3;
 // Try entering the statement into the console to get the result.
 
 // The first one is done for you as an example.
-var a = true; // (10 * 10) == '100'
+var a = true;  (10 * 10) == '100'
 
-var b; // 2 * (10 / 2) + 2;
+var b = 2 * (10 / 2) + 2 
 
-var c; // 8 + 1 * 5 - 4 / 2 <= 9;
+var c = 8 + 1 * 5 - 4 / 2 <= 9
 
-var d; // true === 'true'
+var d = true === 'true'
 
-var e; // 1 == true
+var e = 1 == true
 
-var f; // 1 === true
+var f = 1 === true
 
 
 
